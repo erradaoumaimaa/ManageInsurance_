@@ -15,7 +15,7 @@ public class JpaConfig {
     @Bean
     public LocalEntityManagerFactoryBean entityManagerFactory() {
         LocalEntityManagerFactoryBean factoryBean = new LocalEntityManagerFactoryBean();
-        factoryBean.setPersistenceUnitName("default");  // This name must match the persistence unit in persistence.xml
+        factoryBean.setPersistenceUnitName("ManageInsurance");
         return factoryBean;
     }
 
