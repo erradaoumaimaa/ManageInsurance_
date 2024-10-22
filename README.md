@@ -75,4 +75,4 @@ Dans une compagnie d'assurance fictive, une équipe de développement où vous o
 ## 🚀 Installation
 1. Clonez le projet :
    ```bash
-   git clone https://github.com/votre-utilisateur/nom-du-repo.git
+   git clone https://(https://github.com/erradaoumaimaa/ManageInsurance_)
