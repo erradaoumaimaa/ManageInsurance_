@@ -17,17 +17,17 @@ public class HomeController {
         return mav;
     }
 
-    @GetMapping("/testDatabase")
-    public ModelAndView testDatabase() {
-        ModelAndView mav = new ModelAndView("home");
-        boolean isConnected = userService.testDatabaseConnection();
-
-        if (isConnected) {
-            mav.addObject("message", "Connection to the database was successful!");
-        } else {
-            mav.addObject("message", "Failed to connect to the database.");
-        }
-
-        return mav;
-    }
+//    @GetMapping("/testDatabase")
+//    public ModelAndView testDatabase() {
+//        ModelAndView mav = new ModelAndView("home");
+//        boolean isConnected = userService.testDatabaseConnection();
+//
+//        if (isConnected) {
+//            mav.addObject("message", "Connection to the database was successful!");
+//        } else {
+//            mav.addObject("message", "Failed to connect to the database.");
+//        }
+//
+//        return mav;
+//    }
 }
